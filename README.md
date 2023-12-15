@@ -276,7 +276,7 @@ Identify the probability that a diabetic patient will be readmitted with in less
     <ul>
 <li><B>Technical without Oversamling</B>
             <ul>
-		<li><a href="artificial-intelligence-capstone-diabetic-patient-readmission.ipynb">Jupiter Notebook</a></li>		
+		<li><a href="artificial-intelligence-capstone-diabetic-patient-readmission-ensembles.ipynb">Jupiter Notebook</a></li>		
 		    <li>KNeighborsClassifier, LogisticRegression and DecisionTreeClassifier are used for modeling.</li>
 				<li>4 patterns of data was used for modeling using medication and primary diagnostic code
 					<ul>
@@ -310,7 +310,7 @@ Identify the probability that a diabetic patient will be readmitted with in less
         </li>
 	    <li><B>Technical with Oversampling</B>
             <ul>
-		<li><a href="artificial-intelligence-capstone-diabetic-patient-readmission-oversampling.ipynb">Jupiter Notebook</a></li>		
+		<li><a href="artificial-intelligence-capstone-diabetic-patient-readmission-oversampling-ensembles.ipynb">Jupiter Notebook</a></li>		
 		    <li>KNeighborsClassifier, LogisticRegression and DecisionTreeClassifier are used for modeling.</li>
 		    		<li>SMOTENC at random state 24 used for oversamplling</li>
 				<li>4 patterns of data was used for modeling using medication and primary diagnostic code
