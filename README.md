@@ -294,7 +294,7 @@ Identify the probability that a diabetic patient will be readmitted with in less
 						<li>Accuracy is around 60% to 70% </li>
 						<li>Recall is around 45% to 65% </li>
 						<li>Precision is around 15% to 17% </li>
-                        <li>DecisionTreeClassifier with our Diagnosis performed better than others</li>
+                        <li>Gradient Boosting Classifier performed better than others</li>
                     </ul>
 				</li>
 				<li> At 20% Probability threshold
@@ -302,7 +302,7 @@ Identify the probability that a diabetic patient will be readmitted with in less
 						<li>Accuracy is around 80% to 85% </li>
 						<li>Recall is around 15% to 20% </li>
 						<li>Precision is around 15% to 17% </li>
-                        <li>DecisionTreeClassifier witt all medications and diagnosis better than others</li>
+                        <li>DecisionTreeClassifier witt all medications and diagnosis is slightly better than others</li>
 					</ul>
 				</li>
 		    <li><img src="images/Results_NoOversampling.png" alt="With Oversampling Results"></li>
@@ -326,14 +326,14 @@ Identify the probability that a diabetic patient will be readmitted with in less
 						<li>Accuracy is around 55% to 70% </li>
 						<li>Recall is around 35% to 60% </li>
 						<li>Precision is around 13% to 14% </li>
-                        <li> LogisticRegression when not including non-insulan medications and Diagnosis performed better
+                        <li> KCN when not including diagnosis performed better
                     </ul>
 				</li>
 				<li> At 50% Probability threshold
 					<ul>
-						<li>Accuracy is around 55% to 70% </li>
-						<li>Recall is around 30% to 55% </li>
-						<li>Precision is around 13% to 14% </li>
+						<li>Accuracy is around 55% to 80% </li>
+						<li>Recall is around 20% to 55% </li>
+						<li>Precision is around 13% to 18% </li>
                         <li> LogisticRegression when not including non-insulan medications and Diagnosis performed better
 					</ul>
 				</li>
@@ -370,7 +370,7 @@ Identify the probability that a diabetic patient will be readmitted with in less
                             <ul>
                                 <li>The cost of intervention and its success rate will be deciding factors</li>
                                 <li>A threshold and the data pattern can be decided which would maximize the business financial and non financial ROI</li>
-                                <li> This is a limited data we used for modeling, an good ROI when using models with limited data could encourage business invest more in gathering more data in pursuit of better ROI.</li>
+                                <li> This is a limited data we used for modeling, a good ROI when using models with limited data could encourage business invest more in gathering more data in pursuit of better ROI.</li>
                             </ul>
                         </li>
                     </ul>
@@ -378,4 +378,10 @@ Identify the probability that a diabetic patient will be readmitted with in less
             </ul>
         </li>
     </ul>
+ <li><B> Next Steps</B>
+	 <ul>
+		 <li> Would need further data engenering to see if the Recall and Precision can improved </li>
+		 <li> Build neural networks and evalue if they can perform better the simple and ensemble classifiers </li>
+   	 </ul>
+ </li>
 </div>   
